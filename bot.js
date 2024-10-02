@@ -8,8 +8,8 @@ function generateRandomName() {
     return `${adjectives[Math.floor(Math.random() * adjectives.length)]}${nouns[Math.floor(Math.random() * nouns.length)]}${Math.floor(Math.random() * 1000)}`; // e.g., CoolPanda123
 }
 
-const serverIP = 'IcySurvival248.aternos.me'; // Updated server hostname
-const serverPort = 18290; // Updated server port
+const serverIP = 'TheSMPsFel.aternos.me'; // Updated server hostname
+const serverPort = 26383; // Updated server port
 const version = '1.20.2'; // Replace with a supported version
 
 function createBot() {
